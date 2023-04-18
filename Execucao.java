@@ -35,10 +35,17 @@ public class Execucao {
     //  Exercicio06_easy exercicio06_easy = new Exercicio06_easy();
     //  System.out.println(exercicio06_easy.verificaAprovacao(nota1, nota2));
 
-    Double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o salário: "));
-    Exercicio07_easy exercicio07_easy = new Exercicio07_easy();
-    System.out.println(exercicio07_easy.RetornaCalculaInss(salario));
+    //  Double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o salário: "));
+    //  Exercicio07_easy exercicio07_easy = new Exercicio07_easy();
+    //  System.out.println(exercicio07_easy.RetornaCalculaInss(salario));
 
+    Double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do salario: "));
+    Exercicio08_easy exercicio08_easy = new Exercicio08_easy();
+    System.out.println(salario);
+    Double impostoRenda = exercicio08_easy.calculaImpostoRenda(salario);
+    System.out.println(impostoRenda);
+    System.out.println(exercicio08_easy.calculaSalarioLiquido(salario, impostoRenda));
+    
 
     }
 }

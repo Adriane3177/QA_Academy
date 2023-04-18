@@ -1,10 +1,8 @@
-import javax.swing.JOptionPane;
-
 public class Exercicio08_easy {
 
-    public static void main(String[] args) {
-        Double salario, salarioLiquido = 0.0, impostoRenda = 0.0;
-        salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do salario: "));
+    public Double calculaImpostoRenda(Double salario) {
+        Double impostoRenda = 0.0;
+        // salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do salario: "));
         if (salario <= 1903.98) {
             impostoRenda = 0.0;
         }
@@ -20,10 +18,13 @@ public class Exercicio08_easy {
         if (salario > 4664.68) {
             impostoRenda = (salario * 0.275) - 869.36;
         }
+        return impostoRenda;
+    }    
+
+    public Double calculaSalarioLiquido(Double salario, Double impostoRenda) {
+        Double salarioLiquido = 0.0;
         salarioLiquido =  salario - impostoRenda;
-        System.out.println("O valor do salário é: " + salario);
-        System.out.println("O valor do salário Líquido é: " + salarioLiquido);
-        System.out.println("O valor do imposto de Renda é: " + impostoRenda);
+        return salarioLiquido;
     }    
     
 }
