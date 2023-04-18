@@ -1,4 +1,4 @@
-import javax.swing.JOptionPane;
+// import javax.swing.JOptionPane;
 
 public class Exercicio03_easy {//inicio algoritmo
     static String Primeirovalor;
