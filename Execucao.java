@@ -30,11 +30,15 @@ public class Execucao {
     //  System.out.println("A multiplicação é:" + exercicio05_easy.multiplicacao(numeroDigitado1, numeroDigitado2, numeroDigitado3));
     //  System.out.println("A media é:" + exercicio05_easy.media(numeroDigitado1, numeroDigitado2, numeroDigitado3));
 
-    Double nota1 = Double.parseDouble(JOptionPane.showInputDialog("Informe a nota 1: "));
-    Double nota2 = Double.parseDouble(JOptionPane.showInputDialog("Informe a nota 2: "));
+    //  Double nota1 = Double.parseDouble(JOptionPane.showInputDialog("Informe a nota 1: "));
+    //  Double nota2 = Double.parseDouble(JOptionPane.showInputDialog("Informe a nota 2: "));
+    //  Exercicio06_easy exercicio06_easy = new Exercicio06_easy();
+    //  System.out.println(exercicio06_easy.verificaAprovacao(nota1, nota2));
 
-    Exercicio06_easy exercicio06_easy = new Exercicio06_easy();
-    System.out.println(exercicio06_easy.verificaAprovacao(nota1, nota2));
+    Double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o salário: "));
+    Exercicio07_easy exercicio07_easy = new Exercicio07_easy();
+    System.out.println(exercicio07_easy.RetornaCalculaInss(salario));
+
 
     }
 }

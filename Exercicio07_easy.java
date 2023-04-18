@@ -2,9 +2,9 @@ import javax.swing.JOptionPane;
 
 public class Exercicio07_easy {//inicio algoritimo
 
-    public static void main(String[] args) {
-        Double salario, inss = 0.0;
-        salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o salário: "));
+    public String RetornaCalculaInss(Double salario) {
+        Double inss = 0.0;
+    //    salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o salário: "));
         if (salario <= 1045.00) {
             inss = salario * 0.075;
         }
@@ -20,7 +20,7 @@ public class Exercicio07_easy {//inicio algoritimo
         if (salario > 6101.06) {
             inss = 854.15;
         }
-        System.out.println("O valor do inss a ser pago é R$: " + inss);
+        return "O valor do inss a ser pago é R$: " + inss;
     }
 
 } // fim algoritimo
