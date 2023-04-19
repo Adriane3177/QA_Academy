@@ -46,10 +46,17 @@ public class Execucao {
     // System.out.println(impostoRenda);
     // System.out.println(exercicio08_easy.calculaSalarioLiquido(salario, impostoRenda));
     
-    int numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Informe o número digitado"));
-    Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
-    exercicio09_easy.CalculaTabuada(numeroDigitado);
+    // int numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Informe o número digitado"));
+    // Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
+    // exercicio09_easy.CalculaTabuada(numeroDigitado);
 
+    Double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do Investimento:"));
+    Exercicio10_02easy exercicio10_02easy = new Exercicio10_02easy();
+    Double valorJuros = exercicio10_02easy.CalculaValorJuros(valorInvestimento);
+    Double valorTotal = valorInvestimento + valorJuros;
+    System.out.println("Valor do Investimento:" + valorInvestimento);
+    System.out.println("Valor do Juros:" + valorJuros);
+    System.out.println("Valor Total com Juros:" + valorTotal); 
 
     }
 }
