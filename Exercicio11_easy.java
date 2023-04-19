@@ -2,16 +2,14 @@ import javax.swing.JOptionPane;
 
 public class Exercicio11_easy {
 
-    public static void main(String[] args) {
+    public int somaDois(int numeroDigitado) {
         
-        int contador = 1, numeroDigitado;
-        numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Informe o número:"));
+        int contador = 1;
         while (contador <= 100) {
             numeroDigitado = numeroDigitado + 2;
-            System.out.println("O Total somado é " + numeroDigitado);
             contador ++;
         }
-
+        return numeroDigitado;
     }
     
 }
