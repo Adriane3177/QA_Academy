@@ -39,13 +39,17 @@ public class Execucao {
     //  Exercicio07_easy exercicio07_easy = new Exercicio07_easy();
     //  System.out.println(exercicio07_easy.RetornaCalculaInss(salario));
 
-    Double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do salario: "));
-    Exercicio08_easy exercicio08_easy = new Exercicio08_easy();
-    System.out.println(salario);
-    Double impostoRenda = exercicio08_easy.calculaImpostoRenda(salario);
-    System.out.println(impostoRenda);
-    System.out.println(exercicio08_easy.calculaSalarioLiquido(salario, impostoRenda));
+    // Double salario = Double.parseDouble(JOptionPane.showInputDialog("Digite o valor do salario: "));
+    // Exercicio08_easy exercicio08_easy = new Exercicio08_easy();
+    // System.out.println(salario);
+    // Double impostoRenda = exercicio08_easy.calculaImpostoRenda(salario);
+    // System.out.println(impostoRenda);
+    // System.out.println(exercicio08_easy.calculaSalarioLiquido(salario, impostoRenda));
     
+    int numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Informe o número digitado"));
+    Exercicio09_easy exercicio09_easy = new Exercicio09_easy();
+    exercicio09_easy.CalculaTabuada(numeroDigitado);
+
 
     }
 }
