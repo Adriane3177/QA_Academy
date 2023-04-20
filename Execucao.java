@@ -76,8 +76,12 @@ public class Execucao {
     // Exercicio03_mediun exercicio03_mediun = new Exercicio03_mediun();
     // exercicio03_mediun.calculaSoma();
 
-        Exercicio04_mediun exercicio04_mediun = new Exercicio04_mediun();
-        exercicio04_mediun.MultiplicaNumeros();
+    //    Exercicio04_mediun exercicio04_mediun = new Exercicio04_mediun();
+    //    exercicio04_mediun.MultiplicaNumeros();
 
-    }
+    Exercicio05_mediun exercicio05_mediun = new Exercicio05_mediun();
+    int menorNumeroDigitado = exercicio05_mediun.MenorNumero();
+    System.out.println("O menor número digitado é " + menorNumeroDigitado);
+ 
+    }   
 }
