@@ -63,8 +63,18 @@ public class Execucao {
     // int valorTotal = exercicio11_easy.somaDois(numeroDigitado);
     // System.out.println("O Total somado é " + valorTotal);
 
-    Exercicio01_mediun exercicio01_mediun = new Exercicio01_mediun();
-    exercicio01_mediun.verificaImparOuPar();
+    // Exercicio01_mediun exercicio01_mediun = new Exercicio01_mediun();
+    // exercicio01_mediun.verificaImparOuPar();
+
+    Double valorInvestimento = Double.parseDouble(JOptionPane.showInputDialog("Digite o Valor do Investimento"));
+
+    Exercicio02_mediun exercicio02_mediun = new Exercicio02_mediun();
+
+    System.out.println("O valor do investimento é " + valorInvestimento);
+    Double totalJuros = exercicio02_mediun.calculaValorJuros(valorInvestimento);
+    System.out.println("O valor total do juros é " + totalJuros);
+    System.out.println("O valor atualizado do investimento é " + exercicio02_mediun.calculaTotalComJuros(valorInvestimento, totalJuros));
+    
 
     }
 }
