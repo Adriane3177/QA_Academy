@@ -73,8 +73,11 @@ public class Execucao {
     // System.out.println("O valor total do juros é " + totalJuros);
     // System.out.println("O valor atualizado do investimento é " + exercicio02_mediun.calculaTotalComJuros(valorInvestimento, totalJuros));
     
-    Exercicio03_mediun exercicio03_mediun = new Exercicio03_mediun();
-    exercicio03_mediun.calculaSoma();
+    // Exercicio03_mediun exercicio03_mediun = new Exercicio03_mediun();
+    // exercicio03_mediun.calculaSoma();
+
+        Exercicio04_mediun exercicio04_mediun = new Exercicio04_mediun();
+        exercicio04_mediun.MultiplicaNumeros();
 
     }
 }
