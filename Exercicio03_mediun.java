@@ -1,6 +1,6 @@
 public class Exercicio03_mediun {
 
-    public static void main(String[] args) {
+    public void calculaSoma() {
         
         int contador = 0, soma = 0;
         while (contador <= 1000) {
