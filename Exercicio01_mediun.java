@@ -1,6 +1,6 @@
 public class Exercicio01_mediun {
     
-    public static void main(String[] args) {    
+    public void verificaImparOuPar() {    
         int contador = 1;
         while (contador <=100) {
             if (contador % 2 == 0) {

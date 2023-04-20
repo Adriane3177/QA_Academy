@@ -58,10 +58,13 @@ public class Execucao {
     // System.out.println("Valor do Juros:" + valorJuros);
     // System.out.println("Valor Total com Juros:" + valorTotal); 
 
-    int numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Informe o número:"));
-    Exercicio11_easy exercicio11_easy = new Exercicio11_easy();
-    int valorTotal = exercicio11_easy.somaDois(numeroDigitado);
-    System.out.println("O Total somado é " + valorTotal);
+    // int numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Informe o número:"));
+    // Exercicio11_easy exercicio11_easy = new Exercicio11_easy();
+    // int valorTotal = exercicio11_easy.somaDois(numeroDigitado);
+    // System.out.println("O Total somado é " + valorTotal);
+
+    Exercicio01_mediun exercicio01_mediun = new Exercicio01_mediun();
+    exercicio01_mediun.verificaImparOuPar();
 
     }
 }
