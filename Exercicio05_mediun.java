@@ -2,10 +2,9 @@ import javax.swing.JOptionPane;
 
 public class Exercicio05_mediun {
     public int MenorNumero() {
-        int contador = 1, menorNumeroDigitado = 0;
-        int numeroDigitado = lerNumeroDigitado();
+        int contador = 0, menorNumeroDigitado=0;
         while (contador < 5) {
-            numeroDigitado = Integer.parseInt(JOptionPane.showInputDialog("Informe o número:"));
+            int numeroDigitado = lerNumeroDigitado();
             if (numeroDigitado < menorNumeroDigitado || contador == 0 ) {
                 menorNumeroDigitado = numeroDigitado;
 
