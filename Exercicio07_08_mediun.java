@@ -1,6 +1,6 @@
 public class Exercicio07_08_mediun {
 
-    public static void main(String[] args) {
+    public void CriaVetor() {
         String[] vetorMeses;
         int contador = 0;
         vetorMeses = new String[12];
@@ -17,7 +17,12 @@ public class Exercicio07_08_mediun {
         vetorMeses[9] = "Outubro";
         vetorMeses[10] = "Novembro";
         vetorMeses[11] = "Dezembro";
-    
+
+        LerVetor(vetorMeses);
+    }
+        
+    public void LerVetor(String[] vetorMeses) {
+        int contador=0;
         while (contador < 12) {
             System.out.println("Mês: " + vetorMeses[contador]);
             contador ++;
