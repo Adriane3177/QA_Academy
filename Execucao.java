@@ -88,9 +88,11 @@ public class Execucao {
     // fatorial = exercicio06_mediun.ExibeFatorial(fatorial);
     // System.out.println("O resultado do fatorial é: " + fatorial);
 
-    Exercicio07_08_mediun exercicio07_08_mediun = new Exercicio07_08_mediun();
-    exercicio07_08_mediun.CriaVetor();
+    // Exercicio07_08_mediun exercicio07_08_mediun = new Exercicio07_08_mediun();
+    // exercicio07_08_mediun.CriaVetor();
   
+    Exercicio09_mediun exercicio09_mediun = new Exercicio09_mediun();
+    exercicio09_mediun.InformaDados();
 
 
     
